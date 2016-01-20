@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Internal &amp; External Javascript example 1</title>
+	
+		<!-- Normalize.css -->
+		<script src="/js/internalExternal.js"></script>
+		<link rel="stylesheet" type="text/javascript" href="css/stylesheet.css">
+		
+	</head>
+	<body>
+		
+		<div id="container">
+			
+			<h1>Internal &amp; External Javascript example 1</h1>
+			<hr /><p id="internal"></p>
+			
+			<button id="showDate" onclick="showDate()" >Show date from external JS</button>
+				
+		
+		</div><!-- end of container div -->
+		
+		
+		<script type="text/javascript">
+			document.getElementById("internal").innerHTML = "Hello World from Javascript internal";						
+		</script>
+		
+		
+	</body>
+	
+</html>
