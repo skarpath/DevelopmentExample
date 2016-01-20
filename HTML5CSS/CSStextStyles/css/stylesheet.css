@@ -1,0 +1,59 @@
+/*text formtting with css*/
+.border-box{
+	background:#fc3;
+	margin: 0 0 20px;
+	padding:40px;
+	width: 320px;
+	text-align: center;	
+}
+#box1 {border: solid 1px black;  }
+#box2 {border: dashed 1px black; }
+#box3 {border: dotted 1px black; }
+#box4 {border: double 3px black; }
+#box5 {border: solid 14px black; }
+#box6 {border: dashed 4px black; }
+#box7 {border: dotted 4px black; }
+#box9 {border: double 6px black; }
+
+#styling-links{
+	background: #333;
+}
+
+#styling-links #container{
+	background:white;
+	text-align: center;
+	width:640px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+
+/*
+ * unvisted
+ * visted
+ * hovered over
+ * active - mouse down
+ * MUST BE IN ORDER
+ */
+a{
+	display:block;
+}
+a:link{
+	color: #fc3;
+}
+
+a:visted{
+	color: #fc3;
+}
+
+a:hover{
+	color: green;
+}
+
+a:active{
+	color: black;
+}
+
+a#link-1:link{
+	color: #fc3;
+}
