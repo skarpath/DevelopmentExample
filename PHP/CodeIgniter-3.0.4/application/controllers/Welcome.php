@@ -18,8 +18,21 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	 
+	 
+	//This is a controller
 	public function index()
 	{
 		$this->load->view('welcome_message');
 	}
+
+	//Test controller - Get to this by 
+	//CodeIgniter-3.0.4/index.php/welcome/test
+	//Welcome path here is name of controller Class test is name of function below
+	public function test()
+	{
+		echo "this is a test method test";
+	}
+	
+		
 }

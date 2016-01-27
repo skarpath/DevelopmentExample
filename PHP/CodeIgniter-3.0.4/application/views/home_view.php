@@ -1,0 +1,1 @@
+<h1>Hello this is a this home_view in the view section</h1>
