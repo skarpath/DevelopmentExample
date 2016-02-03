@@ -31,7 +31,7 @@ class Welcome extends CI_Controller {
 	//Welcome path here is name of controller Class test is name of function below
 	public function test()
 	{
-		echo "this is a test method test";
+		echo "this is a test method test for the view controllers";
 	}
 	
 		

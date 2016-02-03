@@ -1,1 +1,1 @@
-<h1>Hello this is a this home_view in the view section</h1>
+<h4>Hello this is a this home view</h4>
