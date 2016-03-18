@@ -3,6 +3,7 @@
 	Plugin Name: Basic Wordpress Plugin
 	Plugin URI: http://stephenkarpath.com_addref
 	Author URI:Stephen Karpathakis
+	Resource: https://www.youtube.com/watch?v=S_r0KR0D2PY
 	Version: 0.0.2
 */
 
