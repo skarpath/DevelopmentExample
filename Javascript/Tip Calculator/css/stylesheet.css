@@ -1,7 +1,7 @@
 body{
 		
 	background-image: url("https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/10/106/106398/pgmvtg2ha1c72fci4wroqtguaxaqzrcgnse82yop7njq4i0mjjbbql68y7xa0he0-f.jpg?1399222058");
-	background-size:100%;
+	background-size:100% 100%;
 	
 }
 
@@ -17,7 +17,9 @@ body{
 	border-radius:5px;
 	text-align:left;
 	background-color:white;
+    border: 1px solid black;
 }
+
 
 h1{
 	margin:0 0 20px;
