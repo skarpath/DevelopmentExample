@@ -2,20 +2,10 @@
     require('db_connect.php');
 
 
+        
 
-
-
-
-
-
-
-
-
-
-
-
-    include('db_connect.php');
-      $query = "SELECT * FROM users";
+  
+    $query = "SELECT * FROM users";
         $result = mysqli_query($conn, $query);
 
         if( mysqli_num_rows($result) > 0){
@@ -38,11 +28,7 @@
         }
 
         //Close connection
-        mysqli_close($conn);
-    
-    
-
-
+        mysqli_close($conn);    
 
 
 ?>

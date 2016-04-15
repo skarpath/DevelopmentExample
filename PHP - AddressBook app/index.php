@@ -17,7 +17,7 @@
         <div id="container">
             <h1>PHP address book</h1>
             <?PHP include ('functions.php');
-               
+               echo "<a href='insert.php'> Click here to insert records</>"
             ?>
         </div>
     
