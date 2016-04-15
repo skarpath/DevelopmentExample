@@ -15,7 +15,7 @@
     
     <body>
         <div id="container">
-            <h1>MySqlSelect</h1>
+            <h1>PHP address book</h1>
             <?PHP include ('functions.php');
                
             ?>
