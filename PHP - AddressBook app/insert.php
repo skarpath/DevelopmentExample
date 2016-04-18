@@ -45,17 +45,30 @@
         else {
             $password = validateFormData( $_POST["password"]);
         }
-                              
+        
+        //Checks if data is not null if isn't inserts data                      
         if ($username != "" && $password != "" && $email != ""){
-            $query = "INSERT INTO users (id, username, password, email, signup_date) VALUES (NULL, '$username', '$email','$password', CURRENT_TIMESTAMP);";
+            
+            //Hash Password
+            $hash = hash('sha256', $password);
+            $password = $hash;
+            
+            //Inserts data
+            $query = "INSERT INTO users (id, username, password, email, signup_date) VALUES (NULL, '$username', '$password','$email', CURRENT_TIMESTAMP);";
 
             
         
             if (mysqli_query($conn, $query) ){
-                echo "new record in database <a href='http://localhost/developmentExamples/PHP%20-%20AddressBook%20app/'><br>Click here to go back</a>";
+                echo "<div class='alert alert-success'>new record in database</div>";
             } else {
                 echo "Error in Database". mysqli_error . "<br/>";
             }
+            mysqli_close($conn);
+            
+            //Resets Data
+            $username = "";
+            $password = "";
+            $email = "";
             
         
         }

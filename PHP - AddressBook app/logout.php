@@ -1,10 +1,21 @@
+<?php
+
+ 
+  if (isset($_SESSION))
+  {
+    echo "A";
+    session_unset();
+    session_destroy();    
+  } 
+   
+
+?>
+
 
 
 <html>
 
     <head>
-        <link rel="stylesheet" href="css/stylesheet.css">
-        
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -17,13 +28,11 @@
     </head>
     
     <body>
-        <div class="container">
+        <div id="container">
             <h1>PHP address book</h1>
-            <?PHP include ('functions.php'); ?>
-    
-               <a href='insert.php'> Click here to insert records</a><br>
-               <a href='login.php'> Click here to login</a>
-            
+            <?PHP include ('functions.php');
+               echo "<a href='insert.php'> Click here to insert records</>"
+            ?>
         </div>
     
     

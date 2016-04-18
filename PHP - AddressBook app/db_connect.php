@@ -1,4 +1,5 @@
 <?php
+    
 
      //Database connection varibles | on local machine
      $server = "localhost";
