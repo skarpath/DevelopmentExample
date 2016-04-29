@@ -20,6 +20,14 @@ public class DifferentJavaExamples {
         //Prints Reverse Message from string
         String Message = "My name is Stephen";
         String reverseAt = " ";
+        
+        if ( 5 == 5)
+        {
+            System.out.println("A");
+        }
+        
+        
+        /*
         print_reverse(Message, reverseAt, true);  //If Last part is true shows reversed else no
         
         
@@ -29,6 +37,7 @@ public class DifferentJavaExamples {
         
         
         System.out.println("\nSend Email Program\n");
+                */
         
     }
     

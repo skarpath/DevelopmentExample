@@ -1,0 +1,9 @@
+body{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.gridExample1{
+    background: lightgray;
+    border:solid 1px #555;
+}

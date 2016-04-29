@@ -1,0 +1,20 @@
+Bootstrap notes
+- Bootrap sample examples and templates are on main website. 
+
+button classes
+btn btn-button
+
+container-fluid class = full width layout
+for keyword = will allow you to focus on that particular id for an object
+
+
+
+GRIDS columns total up to 12
+col-xl-# = large desktop
+col-md-# = medium or regular pc
+col-sm-# = tablet size 
+col-xs-# = phone
+
+use mutiple selectors css
+
+stopped at 5:18
