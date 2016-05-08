@@ -1,0 +1,16 @@
+Bootstrap tables
+
+for tables using the class "table" formats the tables in not so boring way.
+
+the class "table-striped" colors codes a different color for every other row within the layout 
+
+can also use:
+table-bordered
+table-hover
+table-condensed
+table-responsive
+
+on table row can do something like <tr class="success">
+
+can also do this on individal one <td>
+---

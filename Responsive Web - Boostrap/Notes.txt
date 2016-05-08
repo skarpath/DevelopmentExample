@@ -1,0 +1,94 @@
+Bootstrap notes
+- Bootrap sample examples and templates are on main website. 
+
+button classes
+- btn btn-button-default
+- btn btn-button-primary
+- btn btn-button-warning
+- btn btn-button-success
+- btn btn-button-info
+- btn btn-button-inverse
+
+
+container-fluid class = full width layout
+for keyword = will allow you to focus on that particular id for an object
+
+
+
+GRIDS columns total up to 12------------------------------
+col-xl-# = large desktop
+col-md-# = medium or regular pc
+col-sm-# = tablet size 
+col-xs-# = phone
+
+use mutiple selectors css
+
+FORMS----------------------------------------------
+Form-groups are a way of grouping labels/input text fields togther so that they are styled/padding in the correct format
+
+for is like onFocus/focuses in on that area when you click on the input field
+	MAKE SURE THIS MATCHES with ID and is in a label tag and then input id matches this name
+
+the "form-control" class is a bootstap input that gives the input field style
+
+for the textarea input tag - You can use the row="#" to change the line height/input height of the text area
+
+
+to group checkbox input tags | you can use checkbox class for the div then wrap the the contents with a label as shown below
+
+
+<div class="checkbox">
+<label>
+<input type="checkbox"> Checkbox
+</label>
+</div>
+
+----For radio buttons can do the same but use radio class----
+<div class="radio">
+<label>
+<input type="radio" name="formRadio"> Radio input 1
+</label>
+<label>
+<input type="radio" name="formRadio"> Radio input 2
+</label>
+
+NOTE - give a break tag to not make them side by side
+</div>
+
+---For inline / horitizial logins you'll make something like--
+<form class="form-inline">
+...HTML CODE...            
+</form>           
+
+-- You can turn on label text to only show on screen readers(hide labels ony if enabled by certain broswers) However make sure you put place holder text otherwise blank
+
+USE class="sr-only" for this   ^
+
+----------------------
+
+Now one really cool bootstrap class is wrapping an input tag 
+with a input-group and adding the tag input-group-addon above it like below
+
+this creates a cool input box label effect
+ 
+
+<div class="form-group">
+	<label for="formEmail">Email Address</label>
+	<div class="input-group">
+		<div class="input-group-addon">@</div>
+		<input type="email" id="formEmail" class="form-control">
+	</div>
+</div>
+------------------------
+
+you can disable a form tag by adding the attriute disabled to it
+
+<input type="text" disabled>a</input> This shows the input tag but makes the input unuseable
+
+other classes that you can use is: MUST ADD THIS TO FORM GROUP
+- has-success
+- has-warning
+-has-error
+
+
+
